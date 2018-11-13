@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_back"
+        android:enabled="true"
+        android:icon="@drawable/back"
+        android:title="@string/action_back"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/add"
+        android:title="@string/action_add"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_next"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/next"
+        android:title="@string/action_next"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+</menu>

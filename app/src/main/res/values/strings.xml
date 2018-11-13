@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Browser</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_add">Add</string>
+    <string name="button_go">Go</string>
+    <string name="button_back">Back</string>
+    <string name="button_next">Next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/back"
+        android:layout_toStartOf="@+id/back"
+        android:text="@string/button_go" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/next"
+        android:layout_toStartOf="@+id/next"
+        android:text="@string/button_back" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/URLinput"
+        android:layout_marginEnd="10dp"
+        android:text="@string/button_next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:id="@+id/URLinput"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="70dp"
+        android:inputType="text" />
+
+    <FrameLayout
+        android:id="@+id/FragWebView"
+        android:layout_width="362dp"
+        android:layout_height="413dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="134dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp">
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="342dp"
+        android:layout_height="389dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="147dp">
+
+    </android.support.v4.view.ViewPager>
+
+
+</RelativeLayout>
